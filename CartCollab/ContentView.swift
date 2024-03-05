@@ -7,6 +7,13 @@
 
 import SwiftUI
 
+class AppVariables: ObservableObject {
+    // ObservableObject = accessible to anyone in the scope of the view
+    // Published = global visibility, can be accessed from any view which 'observes' this class
+    @Published var selectedTab: Int = 0
+    
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {
