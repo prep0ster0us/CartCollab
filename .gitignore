@@ -121,5 +121,7 @@ iOSInjectionProject/
 
 ### Xcode Patch ###
 **/xcshareddata/WorkspaceSettings.xcsettings
+CartCollabTests/
+CartCollabUITests/
 
 # End of https://www.gitignore.io/api/xcode,swift,firebase,cocoapods
