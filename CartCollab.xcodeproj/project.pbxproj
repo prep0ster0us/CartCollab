@@ -20,6 +20,7 @@
 		CEAC07E92B927A2900C3AA10 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC07E82B927A2900C3AA10 /* BottomBar.swift */; };
 		CEC82FD12B97EBA000536A28 /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC82FD02B97EBA000536A28 /* ItemCard.swift */; };
 		CEC82FD32B97F65D00536A28 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC82FD22B97F65D00536A28 /* CartItem.swift */; };
+		CEC82FD52B97F7F800536A28 /* CartItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC82FD42B97F7F800536A28 /* CartItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		CEAC07E82B927A2900C3AA10 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 		CEC82FD02B97EBA000536A28 /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
 		CEC82FD22B97F65D00536A28 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		CEC82FD42B97F7F800536A28 /* CartItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 		CEAC07DD2B92787D00C3AA10 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CEC82FD42B97F7F800536A28 /* CartItemController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				CEAC07E72B92793700C3AA10 /* ManageCartView.swift in Sources */,
 				CE3CD6E32B8EC49200566A3C /* ContentView.swift in Sources */,
 				CEC82FD32B97F65D00536A28 /* CartItem.swift in Sources */,
+				CEC82FD52B97F7F800536A28 /* CartItemController.swift in Sources */,
 				CEAC07E92B927A2900C3AA10 /* BottomBar.swift in Sources */,
 				CEC82FD12B97EBA000536A28 /* ItemCard.swift in Sources */,
 				CE3CD6E12B8EC49200566A3C /* CartCollabApp.swift in Sources */,
