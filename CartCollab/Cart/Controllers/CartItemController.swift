@@ -21,8 +21,11 @@ struct CartItemController: View {
                             .padding(20)
                         Spacer()
                         VStack {
-                            Text(cartItem.name)
+                            Text(cartItem.name).font(.system(size: 24, weight: .bold))
+                                .padding(4)
                             Text(cartItem.type)
+                                .font(.system(size: 16))
+                                    .padding(4)
                         }
                         Spacer()
                     }
